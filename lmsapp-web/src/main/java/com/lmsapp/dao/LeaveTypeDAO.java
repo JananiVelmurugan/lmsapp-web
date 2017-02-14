@@ -1,11 +1,11 @@
-package com.revature.dao;
+package com.lmsapp.dao;
 
 import java.util.List;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import com.revature.model.LeaveType;
-import com.revature.util.ConnectionUtil;
+import com.lmsapp.model.LeaveType;
+import com.lmsapp.util.ConnectionUtil;
 
 public class LeaveTypeDAO {
 

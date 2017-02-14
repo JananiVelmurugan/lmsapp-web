@@ -1,4 +1,4 @@
-package com.revature.controller;
+package com.lmsapp.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.revature.model.LeaveType;
-import com.revature.service.LeaveTypeService;
+import com.lmsapp.model.LeaveType;
+import com.lmsapp.service.LeaveTypeService;
 
 @CrossOrigin
 @RestController

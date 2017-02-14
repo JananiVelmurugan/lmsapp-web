@@ -1,17 +1,20 @@
-package com.revature.model;
+package com.lmsapp.model;
 
 import java.time.LocalDate;
 
 import lombok.Data;
 
 @Data
-public class Role {
+public class Employee {
 
 	private Long id;
 	private String code;
 	private String name;
-	private Integer level;
+	private Role role;
+	private String emailId;
+	private Long mobileNo;
 	private boolean active;
 	private LocalDate createdDate;
 	private LocalDate modifiedDate;
+
 }

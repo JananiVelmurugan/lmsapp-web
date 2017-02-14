@@ -1,4 +1,4 @@
-package com.revature.model;
+package com.lmsapp.model;
 
 import java.time.LocalDate;
 

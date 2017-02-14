@@ -1,9 +1,9 @@
-package com.revature.service;
+package com.lmsapp.service;
 
 import java.util.List;
 
-import com.revature.dao.EmployeeDAO;
-import com.revature.model.Employee;
+import com.lmsapp.dao.EmployeeDAO;
+import com.lmsapp.model.Employee;
 
 public class EmployeeService {
 

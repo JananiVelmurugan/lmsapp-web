@@ -1,4 +1,4 @@
-package com.revature.config;
+package com.lmsapp.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

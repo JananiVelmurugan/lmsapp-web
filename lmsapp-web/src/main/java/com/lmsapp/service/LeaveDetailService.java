@@ -1,9 +1,9 @@
-package com.revature.service;
+package com.lmsapp.service;
 
 import java.util.List;
 
-import com.revature.dao.LeaveDetailDAO;
-import com.revature.model.LeaveDetail;
+import com.lmsapp.dao.LeaveDetailDAO;
+import com.lmsapp.model.LeaveDetail;
 
 public class LeaveDetailService {
 

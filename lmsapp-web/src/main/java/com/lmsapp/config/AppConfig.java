@@ -1,4 +1,4 @@
-package com.revature.config;
+package com.lmsapp.config;
 
 import javax.sql.DataSource;
 
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "in.spinsoft")
+@ComponentScan(basePackages = "com.lmsapp")
 public class AppConfig {
 
 	@Bean

@@ -1,4 +1,4 @@
-package com.revature.controller;
+package com.lmsapp.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.revature.model.Employee;
-import com.revature.service.EmployeeService;
+import com.lmsapp.model.Employee;
+import com.lmsapp.service.EmployeeService;
 
 @CrossOrigin
 @RestController
@@ -24,7 +24,7 @@ public class EmployeeController {
 
 	@PostMapping("/save")
 	public void save(@RequestBody Employee emp) {
-		
+
 		employeeService.save(emp);
 	}
 
@@ -50,8 +50,8 @@ public class EmployeeController {
 
 	@PutMapping("/{id}")
 	public void update(@PathVariable("id") Long empId, @RequestBody Employee employee) {
-		
-		employeeService.update(empId,employee);
+
+		employeeService.update(empId, employee);
 	}
 	// @DeleteMapping("/employee/{id}")
 	// public ResponseEntity remove(@PathVariable("id") Long empId) {

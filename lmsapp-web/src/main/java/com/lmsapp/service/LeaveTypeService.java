@@ -1,9 +1,9 @@
-package com.revature.service;
+package com.lmsapp.service;
 
 import java.util.List;
 
-import com.revature.dao.LeaveTypeDAO;
-import com.revature.model.LeaveType;
+import com.lmsapp.dao.LeaveTypeDAO;
+import com.lmsapp.model.LeaveType;
 
 public class LeaveTypeService {
 
